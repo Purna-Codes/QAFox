@@ -13,7 +13,7 @@ public class DemoTask {
 	@Test
 	public void demoTest() {
 
-		// Step 1: Create the SparkReport
+		// Step 1: Create the SparkReport latest
 		ExtentSparkReporter spark = new ExtentSparkReporter("./AdvanceReports/report.html");
 
 		// Step 2.1: Set the Document Title
